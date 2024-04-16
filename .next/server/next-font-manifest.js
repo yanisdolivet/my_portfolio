@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/home/yanisdolivet/delivery/my_portfolio/src/app/layout\":[\"static/media/b7b2c116b5028e55-s.p.woff2\",\"static/media/e11418ac562b8ac1-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
