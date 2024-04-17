@@ -2,6 +2,7 @@
   "name": "my_portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yanisdolivet.github.io/my_portfolio/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
