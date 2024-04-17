@@ -11,14 +11,14 @@ const Code = ({className,...props}: ComponentPropsWithoutRef<"span">) => {
 export const Hero = () => {
     return (
         <Section className="flex max-md:flex-col items-start gap-4">
-            <div className="flex-1 max-md:m-auto mr-auto mt-auto">
+            <div className="flex-[2] max-md:m-auto mr-auto mt-auto">
                 <img
                     src="https://lh3.googleusercontent.com/a/ACg8ocKPfuyW6fx4Q3YVZCXyQCYnTcmj9H1YgjW9yfRsu_ZMW3BttnXQpRbbITVfhrtOzRHmFAeR7E0O_dIb_P8C51EAbmvPWRJQ=s288-c-no"
                     className="w-full h-auto max-w-xs max-md:w-56"
                     alt="yanis' picture"
                 />
             </div>
-            <div className="flex-[2] pl-7 flex flex-col gap-2">
+            <div className="flex-[3] pl-7 flex flex-col gap-2">
                 <h2 className="text-5xl text-primary font-bold">Yanis Dolivet</h2>
                 <h3 className="text-3xl pb-4">Junior Developer</h3>
                 <p className="text-base">
