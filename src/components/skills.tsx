@@ -13,7 +13,7 @@ export const Skills = () => {
                 Currently Enjoying ...
             </h2>
             <div className="flex max-md:flex-col gap-4">
-                <div className="flex flex-col gap-2 mb-4 flex-1">
+                <div className="flex flex-col gap-2 flex-1">
                     <ReactIcon size={42} className="animate-spin"
                         style={{
                             animationDuration: "10s",
@@ -22,12 +22,12 @@ export const Skills = () => {
                     <h3 className="mb-2 font-semibold tracking-tight">React</h3>
                     <p className="text-sm text-muted-foreground">I've been using React for <Code>Software Developement</Code> & <Code>Frontend</Code> on multiple site</p>
                 </div>
-                <div className="flex flex-col gap-2 mb-4 flex-1">
+                <div className="flex flex-col gap-2 flex-1">
                     <CIcon size={42}/>
                     <h3 className="mb-2 font-semibold tracking-tight">C</h3>
                     <p className="text-sm text-muted-foreground">C is my main <Code>language</Code>, which I've been learning for over one year </p>
                 </div>
-                <div className="flex flex-col gap-2 flex-1">
+                <div className="flex flex-col gap-2 mt-3 flex-1">
                     <GolangIcon size={30}/>
                     <h3 className="mb-2 font-semibold tracking-tight">Golang</h3>
                     <p className="text-sm text-muted-foreground">I used go to create a <Code>RestFul API</Code> & some small project with it</p>

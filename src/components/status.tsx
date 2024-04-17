@@ -1,6 +1,8 @@
-import { Bean, Code, GraduationCap, LucideIcon, RefreshCcw, Send, Waypoints } from "lucide-react";
+import { Bean, Code, GraduationCap, RefreshCcw, Send, Waypoints } from "lucide-react";
 import { Section } from "./section";
 import { Card } from "@/components/ui/card"
+import { MyProjects, MyProjectsProps } from "./my_project"
+import { Experience, ExperienceProps } from "./experience"
 
 export const Status = () => {
     return (
@@ -74,50 +76,3 @@ const EXPERIENCE: ExperienceProps[] = [
         date: "2024",
     },
 ]
-
-type MyProjectsProps = {
-    Logo: LucideIcon;
-    title: string;
-    description: string;
-}
-
-type ExperienceProps = {
-    Logo: LucideIcon;
-    title: string;
-    date: string;
-}
-
-const MyProjects = (props: MyProjectsProps) => {
-    return (
-        <div className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-2 rounded">
-            <span className="bg-accent text-accent-foreground p-3 rounded-sm">
-                <props.Logo/>
-            </span>
-            <div>
-                <p className="text-lg font-semibold">{props.title}</p>
-                <p className="text-sm text-muted-foreground">
-                    {props.description}
-                </p>
-            </div>
-        </div>
-    );
-};
-
-const Experience = (props: ExperienceProps) => {
-    return (
-        <div className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-2 rounded">
-            <span className="bg-accent text-accent-foreground p-3 rounded-sm">
-                <props.Logo/>
-            </span>
-            <div>
-                <p className="text-lg font-semibold">{props.title}</p>
-                <div>
-                    <p className="text-sm text-muted-foreground">
-                        {props.date}
-                    </p>
-                </div>
-            </div>
-        </div>
-    );
-};
-
