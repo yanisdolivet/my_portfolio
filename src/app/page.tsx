@@ -4,6 +4,7 @@ import { Spacing } from "../components/spacing";
 import { Status } from "../components/status";
 import { Skills } from "../components/skills";
 import { ContactMe } from "@/components/contact-me";
+import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
@@ -27,6 +28,8 @@ export default function Home() {
       <ContactMe/>
 
       <Spacing size="sm"/>
+
+      <Footer/>
     </main>
   );
 }
