@@ -10,6 +10,7 @@ export const ReactIcon = (
             viewBox="0 0 256 228"
             version="1.1"
             preserveAspectRatio="xMidYMid"
+            {...props}
         >
             <g>
                 <path
