@@ -8,7 +8,7 @@ export type MyProjectsProps = {
 
 export const MyProjects = (props: MyProjectsProps) => {
     return (
-        <div className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-2 rounded">
+        <div className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-2 rounded hover-accelerate relative">
             <span className="bg-accent text-accent-foreground p-3 rounded-sm">
                 <props.Logo/>
             </span>
