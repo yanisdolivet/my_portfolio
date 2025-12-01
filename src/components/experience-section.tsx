@@ -4,7 +4,7 @@ import { Section } from "./section";
 import { Card } from "@/components/ui/card"
 import { Badge } from "./ui/badge";
 import { Calendar, MapPin, ExternalLink, ChevronDown, ChevronUp } from "lucide-react";
-import { Code, GraduationCap, Briefcase, Award } from "lucide-react";
+import { Code, GraduationCap, Briefcase, Award, LucideIcon } from "lucide-react";
 import { ShinyCard } from "./micro-interactions/shiny-card";
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -46,7 +46,7 @@ interface ExperienceCardProps {
     location: string;
     date: string;
     description: string;
-    icon: React.ComponentType<{ size?: number; className?: string }>;
+    icon: LucideIcon;
     type: "education" | "work";
     skills?: string[];
     isLast?: boolean;
